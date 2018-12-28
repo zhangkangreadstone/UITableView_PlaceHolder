@@ -46,6 +46,10 @@
     return cell;
 }
 
+- (UIImage *)placeHolder_noDataViewImage
+{
+    return [UIImage imageNamed:@"nodata"];
+}
 
 -(UITableView *)tableView
 {
